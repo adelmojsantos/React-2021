@@ -1,6 +1,7 @@
 .experienceBar {
     display: flex;
     align-items: center;
+    margin-bottom: 4rem;
 }
 
 .experienceBar span {
@@ -16,7 +17,7 @@
     position: relative;
 }
 
-.experienceBar>div div {
+.experienceBar>div>div {
     height: 4px;
     border-radius: 4px;
     background: var(--green);
